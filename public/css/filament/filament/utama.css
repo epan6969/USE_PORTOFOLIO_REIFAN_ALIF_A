@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f3f3f3;
+}
+
+.container{
+    width:100%;
+    max-width:1920px;
+    min-height:3473px;
+    margin:auto;
+}
+
+/* PROFILE */
+
+.profile{
+    text-align:center;
+    padding-top:20px;
+}
+
+.profile h1{
+    font-size:20px;
+    font-weight:500;
+    margin-bottom:15px;
+}
+
+.profile img{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.info{
+    margin-top:10px;
+    font-size:22px;
+    line-height:1.4;
+}
+
+/* ABOUT */
+
+.about{
+    width:70%;
+    margin:20px auto;
+    text-align:center;
+}
+
+.about h2{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.about p{
+    font-size:24px;
+    line-height:1.5;
+}
+
+/* SKILLS */
+
+.skills-title{
+    text-align:center;
+    margin-top:100px;
+    font-size:34px;
+    font-weight:bold;
+}
+
+.skills-box{
+    width:85%;
+    height:680px;
+    margin:30px auto;
+    border-radius:70px;
+    background:linear-gradient(
+        180deg,
+        #97b76a 0%,
+        #8cab5e 55%,
+        #3c522d 100%
+    );
+    padding-top:70px;
+}
+
+.skill-list{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.skill{
+    text-align:center;
+}
+
+.skill img{
+    width:140px;
+    height:140px;
+}
+
+.skill p{
+    margin-top:8px;
+    font-size:18px;
+    font-weight:bold;
+}
+
+/* KONTAK */
+
+.contact-title{
+    text-align:center;
+    margin-top:450px;
+    font-size:34px;
+    font-weight:bold;
+}
+
+.contact-box{
+    width:85%;
+    height:700px;
+    margin:30px auto;
+    border-radius:70px;
+    background:linear-gradient(
+        180deg,
+        #97b76a 0%,
+        #8cab5e 55%,
+        #3c522d 100%
+    );
+    padding:100px 120px;
+}
+
+.contact-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    row-gap:60px;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    color:white;
+    font-size:28px;
+}
+
+.contact-item img{
+    width:55px;
+    height:55px;
+}
