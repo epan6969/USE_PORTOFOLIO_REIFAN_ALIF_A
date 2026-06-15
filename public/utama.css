@@ -750,4 +750,47 @@ h1{
         width:60px;
         height:60px;
     }
+}.kontak {
+    padding: 50px;
+    text-align: center;
 }
+
+.kontak h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.kontak-box {
+    max-width: 1500px;
+    margin: auto;
+    padding: 80px;
+    border-radius: 120px;
+    background: linear-gradient(
+        180deg,
+        #95b86a 0%,
+        #2f431f 100%
+    );
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.kontak-kiri,
+.kontak-kanan {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.item img {
+    width: 90px;
+    height: 90px;
+    object-fit: contain;
+}
+
